@@ -1,0 +1,3 @@
+use("sample_mflix")//nombtr de la base de datos
+
+db.movies.find({ runtime: 7}).count() //db mas la collection mas la consulta en formato json
